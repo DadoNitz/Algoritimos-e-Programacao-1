@@ -1,0 +1,23 @@
+Declaração das variáveis:
+
+nome: guarda o nome do hóspede (caractere).
+idade: guarda a idade do hóspede (inteiro).
+quarto: guarda o número do quarto (inteiro).
+numNoites: guarda o número de noites que o hóspede ficará hospedado (inteiro).
+totalPagar: guarda o valor total a ser pago pelo hóspede (real).
+valorDiaria: guarda o valor da diária do quarto (real).
+Função CalcularTotalPagar:
+
+A função CalcularTotalPagar recebe o número de noites (numNoites) como parâmetro.
+Ela declara a variável valorDiaria localmente, com o valor de 150.0 (valor da diária do quarto).
+Retorna o valor do cálculo valorDiaria * numNoites, ou seja, o valor total a ser pago pelo número de noites informado.
+Início do programa principal:
+
+Inicializa a variável valorDiaria com o valor de 150.0 (valor da diária do quarto).
+Exibe uma mensagem de boas-vindas ao sistema de check-in de hotel.
+Solicita ao usuário que digite seu nome, idade, número do quarto e número de noites que ficará hospedado, respectivamente.
+Lê as entradas do usuário e armazena nas variáveis correspondentes.
+Chama a função CalcularTotalPagar passando o número de noites informado e armazena o resultado na variável totalPagar.
+Exibe os detalhes da reserva, incluindo nome, idade, número do quarto, número de noites e valor total a pagar.
+Exibe uma mensagem de agradecimento por utilizar o sistema de check-in de hotel.
+Esse algoritmo é bastante simples e tem como objetivo ilustrar o processo de check-in de um hotel, calculando o valor total a ser pago com base no número de noites. No entanto, é importante ressaltar que esse código não possui validação de entrada nem considera outros possíveis cálculos, como taxas adicionais, descontos ou serviços extras. É apenas uma implementação básica para fins de demonstração.

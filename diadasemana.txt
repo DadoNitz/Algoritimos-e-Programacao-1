@@ -1,0 +1,7 @@
+O algoritmo de Zeller é um método matemático que calcula o dia da semana correspondente a uma data específica.
+
+No algoritmo de Zeller, o cálculo do dia da semana é baseado em um sistema em que 0 representa sábado, 1 representa domingo, 2 representa segunda-feira e assim por diante até 6, que representa sexta-feira. Portanto, quando o cálculo resulta em 0, é necessário ajustar o valor para 7, que representa sábado, para que a correspondência seja mantida.
+
+Em resumo, essa condição e a atribuição s <- 7 são utilizadas para garantir que, quando o resultado do cálculo for 0, o valor final atribuído a s seja 7, representando sábado corretamente.
+
+Dessa forma, o bloco senao s <- d é executado quando o resultado do cálculo é diferente de 0, ou seja, para os valores correspondentes aos outros dias da semana. Nesse caso, o valor calculado (d) é atribuído diretamente a s, mantendo a correspondência com os valores dos dias da semana.
